@@ -5,24 +5,24 @@
 
 int menu(){
     int opt;
-    printf("\n================================\n");
-    printf(" TRABAJO PRACTICO N° 3: FUNCIONES\n");
-    printf("=================================\n\n");
+    printf("\n==================================\n");
+    printf(" TRABAJO PRACTICO NÂ° 3: FUNCIONES\n");
+    printf("==================================\n\n");
     printf(" 1.Sumar los elementos de una pila (usar variables enteras).\n\n");
     printf(" 2.Contar los elementos de una pila (usar variables enteras).\n\n");
     printf(" 3.Calcular el promedio de los valores de una pila (usar variables).\n\n");
     printf(" 4.Encontrar el menor elemento de una pila y guardarlo en otra. (sin variables enteras, solo pilas).\n\n");
     printf(" 5.Insertar un elemento en una pila ordenada de menor (tope) a mayor (base) de forma tal que se conserve el orden. (sin variables enteras, solo pilas).\n\n");
-    printf(" 6.Usando lo resuelto en el ejercicio 4, pasar los elementos de una pila a otra de forma tal que la segunda pila quede ordenada de mayor (tope) a menor (base). Esto se llama método de ordenación por selección.\n\n");
-    printf(" 7.Determinar si un elemento buscado está dentro de una pila. Al encontrarlo, finalizar la búsqueda.\n\n");
+    printf(" 6.Usando lo resuelto en el ejercicio 4, pasar los elementos de una pila a otra de forma tal que la segunda pila quede ordenada de mayor (tope) a menor (base). Esto se llama mÃ©todo de ordenaciÃ³n por selecciÃ³n.\n\n");
+    printf(" 7.Determinar si un elemento buscado estÃ¡ dentro de una pila. Al encontrarlo, finalizar la bÃºsqueda.\n\n");
     printf(" 8.Eliminar un elemento de una pila. El eliminarlo, finalizar el recorrido y dejar el resto en el mismo orden.\n\n");
-    printf(" 9.Verificar si una pila DADA es capicúa.\n\n");
-    printf(" 10.Dadas dos pilas A y B que simulan conjuntos (cada conjunto no tiene elementos repetidos sobre sí mismo), realizar un programa que calcule en la pila C la operación de unión.\n\n");
-    printf(" 11.Intercalar dos pilas ordenadas en forma creciente (ORDENADA1 y ORDENADA2) dejando el resultado en una pila también ordenada en forma creciente (ORDENADAFINAL).\n\n");
-    printf(" 12.Dada la pila ORIGEN ordenarla en forma ascendente por método de inserción dejando el resultado en la pila ORIGEN. Para este ejercicio usar lo aprendido para el ejercicio 5.\n\n");
-    printf(" 13.Suponer un juego de cartas en el que en cada mano se reparten dos cartas por jugador. Un jugador gana la mano cuando la suma de sus cartas es mayor que las del contrario y al hacerlo coloca todas las cartas (las de él y las de su rival) en su pila de puntos. En caso de empate (y para simplificar) siempre gana el jugador1. Simular la ejecución del juego de tal manera que dada una pila MAZO (con un número de elementos múltiplo de cuatro) distribuya las cartas en las pilas PUNTOSJUG1 y PUNTOSJUG2 como si estos hubieran jugado. Utilizar las pilas auxiliares que crea conveniente.\n\n");
+    printf(" 9.Verificar si una pila DADA es capicÃºa.\n\n");
+    printf(" 10.Dadas dos pilas A y B que simulan conjuntos (cada conjunto no tiene elementos repetidos sobre sÃ­ mismo), realizar un programa que calcule en la pila C la operaciÃ³n de uniÃ³n.\n\n");
+    printf(" 11.Intercalar dos pilas ordenadas en forma creciente (ORDENADA1 y ORDENADA2) dejando el resultado en una pila tambiÃ©n ordenada en forma creciente (ORDENADAFINAL).\n\n");
+    printf(" 12.Dada la pila ORIGEN ordenarla en forma ascendente por mÃ©todo de inserciÃ³n dejando el resultado en la pila ORIGEN. Para este ejercicio usar lo aprendido para el ejercicio 5.\n\n");
+    printf(" 13.Suponer un juego de cartas en el que en cada mano se reparten dos cartas por jugador. Un jugador gana la mano cuando la suma de sus cartas es mayor que las del contrario y al hacerlo coloca todas las cartas (las de Ã©l y las de su rival) en su pila de puntos. En caso de empate (y para simplificar) siempre gana el jugador1. Simular la ejecuciÃ³n del juego de tal manera que dada una pila MAZO (con un nÃºmero de elementos mÃºltiplo de cuatro) distribuya las cartas en las pilas PUNTOSJUG1 y PUNTOSJUG2 como si estos hubieran jugado. Utilizar las pilas auxiliares que crea conveniente.\n\n");
     printf(" 14.SALIR\n\n");
-    printf("\n ELIJA UNA OPCIÓN: ");
+    printf("\n ELIJA UNA OPCIÃ“N: ");
     fflush(stdin);
     scanf("%i", &opt);
     return opt;
@@ -229,7 +229,7 @@ int main(){
             system("cls");
         }break;
         case 6:{
-            printf(" 6.Usando lo resuelto en el ejercicio 4, pasar los elementos de una pila a otra de forma tal que la segunda pila quede ordenada de mayor (tope) a menor (base). Esto se llama método de ordenación por selección.\n\n");
+            printf(" 6.Usando lo resuelto en el ejercicio 4, pasar los elementos de una pila a otra de forma tal que la segunda pila quede ordenada de mayor (tope) a menor (base). Esto se llama mÃ©todo de ordenaciÃ³n por selecciÃ³n.\n\n");
             Pila origen;
             Pila ordenada;
             Pila aux;
@@ -274,7 +274,7 @@ int main(){
             system("cls");
         }break;
         case 7:{
-            printf(" 7.Determinar si un elemento buscado está dentro de una pila. Al encontrarlo, finalizar la búsqueda.\n\n");
+            printf(" 7.Determinar si un elemento buscado estÃ¡ dentro de una pila. Al encontrarlo, finalizar la bÃºsqueda.\n\n");
             Pila pilaOrigen;
             Pila pilaAux;
             inicpila(&pilaOrigen);
@@ -360,7 +360,7 @@ int main(){
             system("cls");
         }break;
         case 9:{
-            printf(" 9.Verificar si una pila DADA es capicúa.\n\n");
+            printf(" 9.Verificar si una pila DADA es capicÃºa.\n\n");
             Pila pilaOriginal;
             Pila pilaCopia;
             Pila pilaAux;
@@ -398,7 +398,7 @@ int main(){
             system("cls");
         }break;
         case 10:{
-            printf(" 10.Dadas dos pilas A y B que simulan conjuntos (cada conjunto no tiene elementos repetidos sobre sí mismo), realizar un programa que calcule en la pila C la operación de unión.\n\n");
+            printf(" 10.Dadas dos pilas A y B que simulan conjuntos (cada conjunto no tiene elementos repetidos sobre sÃ­ mismo), realizar un programa que calcule en la pila C la operaciÃ³n de uniÃ³n.\n\n");
             Pila pilaA;
             inicpila(&pilaA);
             Pila pilaAuxA;
@@ -442,7 +442,7 @@ int main(){
             system("cls");
         }break;
         case 11:{
-            printf(" 11.Intercalar dos pilas ordenadas en forma creciente (ORDENADA1 y ORDENADA2) dejando el resultado en una pila también ordenada en forma creciente (ORDENADAFINAL).\n\n");
+            printf(" 11.Intercalar dos pilas ordenadas en forma creciente (ORDENADA1 y ORDENADA2) dejando el resultado en una pila tambiÃ©n ordenada en forma creciente (ORDENADAFINAL).\n\n");
             Pila ORDENADA1;
             inicpila(&ORDENADA1);
             Pila ORDENADA2;
@@ -478,7 +478,7 @@ int main(){
             system("cls");
         }break;
         case 12:{
-            printf(" 12.Dada la pila ORIGEN ordenarla en forma ascendente por método de inserción dejando el resultado en la pila ORIGEN. Para este ejercicio usar lo aprendido para el ejercicio 5.\n\n");
+            printf(" 12.Dada la pila ORIGEN ordenarla en forma ascendente por mÃ©todo de inserciÃ³n dejando el resultado en la pila ORIGEN. Para este ejercicio usar lo aprendido para el ejercicio 5.\n\n");
             Pila origen;
             inicpila(&origen);
             Pila destino;
@@ -531,7 +531,7 @@ int main(){
             system("cls");
         }break;
         case 13:{
-            printf(" 13.Suponer un juego de cartas en el que en cada mano se reparten dos cartas por jugador. Un jugador gana la mano cuando la suma de sus cartas es mayor que las del contrario y al hacerlo coloca todas las cartas (las de él y las de su rival) en su pila de puntos. En caso de empate (y para simplificar) siempre gana el jugador1. Simular la ejecución del juego de tal manera que dada una pila MAZO (con un número de elementos múltiplo de cuatro) distribuya las cartas en las pilas PUNTOSJUG1 y PUNTOSJUG2 como si estos hubieran jugado. Utilizar las pilas auxiliares que crea conveniente.\n\n");
+            printf(" 13.Suponer un juego de cartas en el que en cada mano se reparten dos cartas por jugador. Un jugador gana la mano cuando la suma de sus cartas es mayor que las del contrario y al hacerlo coloca todas las cartas (las de Ã©l y las de su rival) en su pila de puntos. En caso de empate (y para simplificar) siempre gana el jugador1. Simular la ejecuciÃ³n del juego de tal manera que dada una pila MAZO (con un nÃºmero de elementos mÃºltiplo de cuatro) distribuya las cartas en las pilas PUNTOSJUG1 y PUNTOSJUG2 como si estos hubieran jugado. Utilizar las pilas auxiliares que crea conveniente.\n\n");
             Pila jugadorUno;
             inicpila(&jugadorUno);
             Pila jugadorDos;
@@ -626,698 +626,3 @@ int main(){
     system("pause");
     return 0;
 }
-
-///// 1.	Sumar los elementos de una pila (usar variables enteras)
-////
-////int main()
-////{
-////    int suma=0;
-////    Pila origen;
-////    Pila aux;
-////    inicpila (&origen);
-////    inicpila (&aux);
-////
-////    char opt;
-////    int valor;
-////    do
-////    {
-////        printf("INGRESE UN ELEMENTO\n");
-////        scanf("%i",&valor);
-////        apilar(&origen,valor);
-////        printf("\nDESEA CARGAR UN NUEVO ELEMENTO? Y/N \n");
-////        fflush(stdin);
-////        scanf("%c", &opt);
-////        printf("\n");
-////    }
-////    while(opt=='Y'||opt=='y');
-////
-////    while (!pilavacia(&origen))
-////    {
-////        suma=suma+tope(&origen);
-////
-////        apilar(&aux,desapilar(&origen));
-////    }
-////
-////    printf("La suma de los valores dentro de la pila da: %i \n",suma);
-////
-////    return 0;
-////}
-////
-///// 2.	Contar los elementos de una pila (usar variables enteras)
-////
-////int main()
-////{
-////    int count=0;
-////    Pila origen;
-////    Pila aux;
-////    inicpila (&origen);
-////    inicpila (&aux);
-////
-////    char opt;
-////    int valor;
-////    do
-////    {
-////        printf("INGRESE UN ELEMENTO\n");
-////        scanf("%i",&valor);
-////        apilar(&origen,valor);
-////        printf("\nDESEA CARGAR UN NUEVO ELEMENTO? Y/N \n");
-////        fflush(stdin);
-////        scanf("%c", &opt);
-////        printf("\n");
-////    }
-////    while(opt=='Y'||opt=='y');
-////
-////    while (!pilavacia(&origen))
-////    {
-////        count=count+1;
-////
-////        apilar(&aux,desapilar(&origen));
-////    }
-////
-////    printf("La cantidad de los elementos dentro de la pila da: %i \n",count);
-////
-////    return 0;
-////}
-////
-///// 3.	Calcular el promedio de los valores de una pila (usar variables)
-////
-////int main()
-////{
-////    int amount=0;
-////    int sum=0;
-////    int average=0;
-////    Pila origen;
-////    Pila aux;
-////    inicpila (&origen);
-////    inicpila (&aux);
-////
-////    char opt;
-////    int valor;
-////    do
-////    {
-////        printf("INGRESE UN ELEMENTO\n");
-////        scanf("%i",&valor);
-////        apilar(&origen,valor);
-////        printf("\nDESEA CARGAR UN NUEVO ELEMENTO? Y/N \n");
-////        fflush(stdin);
-////        scanf("%c", &opt);
-////        printf("\n");
-////    }
-////    while(opt=='Y'||opt=='y');
-////
-////    while (!pilavacia(&origen))
-////    {
-////        sum=sum+tope(&origen);
-////        amount=amount+1;
-////        apilar(&aux,desapilar(&origen));
-////    }
-////
-////    average=sum/amount;
-////
-////    printf("El promedio de los elementos dentro de la pila da: %i \n",average);
-////
-////    return 0;
-////}
-////
-///// 4.	Encontrar el menor elemento de una pila y guardarlo en otra. (sin variables enteras, solo pilas)
-////
-////int main()
-////{
-////    Pila origen;
-////    Pila aux;
-////    Pila menor;
-////    inicpila (&origen);
-////    inicpila (&aux);
-////    inicpila (&menor);
-////
-////    char opt;
-////    int valor;
-////    do
-////    {
-////        printf("INGRESE UN ELEMENTO\n");
-////        scanf("%i",&valor);
-////        apilar(&origen,valor);
-////        printf("\nDESEA CARGAR UN NUEVO ELEMENTO? Y/N \n");
-////        fflush(stdin);
-////        scanf("%c", &opt);
-////        printf("\n");
-////    }
-////    while(opt=='Y'||opt=='y');
-////
-////    printf("PILA ORIGEN\n");
-////    mostrar(&origen);
-////
-////    apilar(&menor, desapilar(&origen));
-////
-////    while(!pilavacia(&origen))
-////    {
-////        if(tope(&origen)<tope(&menor))
-////        {
-////            apilar(&aux, desapilar(&menor));
-////            apilar(&menor, desapilar(&origen));
-////        }
-////        else
-////        {
-////            apilar(&aux, desapilar(&origen));
-////        }
-////    }
-////    while(!pilavacia(&aux))
-////    {
-////        apilar(&origen, desapilar(&aux));
-////    }
-////
-////    printf("PILA ORIGEN\n");
-////    mostrar(&origen);
-////    printf("PILA MENOR\n");
-////    mostrar(&menor);
-////    return 0;
-////}
-////
-///// 5.	Insertar un elemento en una pila ordenada de menor (tope) a mayor (base) de forma tal que
-/////     se conserve el orden. (sin variables enteras, solo pilas)
-////
-////int main()
-////{
-////    Pila origen;
-////    Pila aux;
-////    Pila user;
-////    inicpila(&origen);
-////    inicpila(&aux);
-////    inicpila(&user);
-////
-////    apilar(&origen,6);
-////    apilar(&origen,4);
-////    apilar(&origen,2);
-////    apilar(&origen,1);
-////
-////    printf("PILA ORIGEN\n");
-////    mostrar(&origen);
-////    system("pause");
-////    system("cls");
-////
-////    char opt;
-////    int valor;
-////    do
-////    {
-////        printf("INGRESE UN ELEMENTO\n");
-////        scanf("%i",&valor);
-////        apilar(&user,valor);
-////        printf("\nDESEA CARGAR UN NUEVO ELEMENTO? Y/N \n");
-////        fflush(stdin);
-////        scanf("%c", &opt);
-////        printf("\n");
-////    }
-////    while(opt=='Y'||opt=='y');
-////
-////    while (!pilavacia(&origen) && !pilavacia(&user))
-////    {
-////        while (tope(&origen)<tope(&user))
-////        {
-////            apilar(&aux, desapilar(&origen));
-////        }
-////        apilar(&origen, desapilar(&user));
-////        while(!pilavacia(&aux))
-////        {
-////            apilar(&origen,desapilar(&aux));
-////        }
-////    }
-////    printf("PILA ORIGEN");
-////    mostrar(&origen);
-////
-////    return 0;
-////}
-////
-///// 6. Usando lo resuelto en el ejercicio 4, pasar los elementos de una pila a otra de forma tal que
-///// la segunda pila quede ordenada de mayor (tope) a menor (base). Esto se llama metodo de ordenacion por
-///// seleccion.
-////
-////int main()
-////{
-////    Pila origen;
-////    Pila ordenada;
-////    Pila aux;
-////    Pila menor;
-////    inicpila (&origen);
-////    inicpila(&ordenada);
-////    inicpila (&aux);
-////    inicpila (&menor);
-////
-////    char opt;
-////    int valor;
-////    do
-////    {
-////        printf("INGRESE UN ELEMENTO\n");
-////        scanf("%i",&valor);
-////        apilar(&origen,valor);
-////        printf("\nDESEA CARGAR UN NUEVO ELEMENTO? Y/N \n");
-////        fflush(stdin);
-////        scanf("%c", &opt);
-////        printf("\n");
-////    }
-////    while(opt=='Y'||opt=='y');
-////
-////    while (!pilavacia(&origen))
-////    {
-////        apilar(&menor,desapilar(&origen));
-////        while (!pilavacia(&origen))
-////        {
-////            if (tope(&origen)>tope(&menor))
-////            {
-////                apilar(&aux,desapilar(&origen));
-////            }
-////            else
-////            {
-////                apilar(&aux,desapilar(&menor));
-////                apilar(&menor,desapilar(&origen));
-////            }
-////        }
-////        apilar(&ordenada, desapilar(&menor));
-////        while (!pilavacia (&aux))
-////        {
-////            apilar(&origen, desapilar(&aux));
-////        }
-////    }
-////
-////    printf("PILA ORDENADA");
-////    mostrar(&ordenada);
-////    return 0;
-////}
-////
-///// 7.	Determinar si un elemento buscado está dentro de una pila. Al encontrarlo, finalizar la búsqueda.
-////
-////int main()
-////{
-////    Pila pilaOrigen;
-////    Pila pilaAux;
-////    inicpila(&pilaOrigen);
-////    inicpila(&pilaAux);
-////
-////    int elementoBuscado=0;
-////    int flag =0;
-////
-////    apilar(&pilaOrigen, 10);
-////    apilar(&pilaOrigen, 20);
-////    apilar(&pilaOrigen, 30);
-////    apilar(&pilaOrigen, 40);
-////    apilar(&pilaOrigen, 50);
-////
-////    mostrar(&pilaOrigen);
-////
-////    printf("\nINGRESE EL ELEMENTO A BUSCAR\n");
-////    scanf("%i", &elementoBuscado);
-////
-////    while(!pilavacia(&pilaOrigen)&&flag==0)
-////    {
-////        if(tope(&pilaOrigen)==elementoBuscado)
-////        {
-////            flag=1;
-////        }
-////        else
-////        {
-////            apilar(&pilaAux, desapilar(&pilaOrigen));
-////        }
-////    }
-////    if(flag==1)
-////    {
-////        printf("\nELEMENTO %i ENCONTRADO\n", elementoBuscado);
-////    }
-////    else
-////    {
-////        printf("\nELEMENTO %i NO ENCONTRADO\n", elementoBuscado);
-////    }
-////    while(!pilavacia(&pilaAux))
-////    {
-////        apilar(&pilaOrigen, desapilar(&pilaAux));
-////    }
-////    mostrar(&pilaOrigen);
-////
-////    return 0;
-////}
-////
-///// 8.	Eliminar un elemento de una pila. El eliminarlo, finalizar el recorrido y dejar el resto en el mismo orden.
-////
-////int main()
-////{
-////    Pila pilaOrigen;
-////    Pila pilaAux;
-////
-////    inicpila(&pilaOrigen);
-////    inicpila(&pilaAux);
-////
-////    int elementoEliminar=150;
-////    int flag=0;
-////
-////    apilar(&pilaOrigen, 10);
-////    apilar(&pilaOrigen, 20);
-////    apilar(&pilaOrigen, 30);
-////    apilar(&pilaOrigen, 40);
-////    apilar(&pilaOrigen, 50);
-////    apilar(&pilaOrigen, 60);
-////
-////    printf("PILA ORIGEN\n");
-////    mostrar(&pilaOrigen);
-////
-////    while(!pilavacia(&pilaOrigen)&&flag==0)
-////    {
-////        if(tope(&pilaOrigen)==elementoEliminar)
-////        {
-////            desapilar(&pilaOrigen);
-////            flag=1;
-////        }
-////        else
-////        {
-////            apilar(&pilaAux, desapilar(&pilaOrigen));
-////        }
-////    }
-////    if(flag==1)
-////    {
-////        printf("EL ELEMENTO HA SIDO ELIMINADO\n");
-////    }
-////    else
-////    {
-////        printf("NO SE ENCONTRO EL ELEMENTO A ELIMINAR\n");
-////    }
-////    while(!pilavacia(&pilaAux))
-////    {
-////        apilar(&pilaOrigen, desapilar(&pilaAux));
-////    }
-////
-////    printf("\nPILA ORIGEN\n");
-////    mostrar(&pilaOrigen);
-////    return 0;
-////}
-////
-///// 9.	Verificar si una pila DADA es capicúa.
-////
-////int main()
-////{
-////    Pila pilaOriginal;
-////    Pila pilaCopia;
-////    Pila pilaAux;
-////    inicpila(&pilaOriginal);
-////    inicpila(&pilaCopia);
-////    inicpila(&pilaAux);
-////
-////    apilar(&pilaOriginal, 10);
-////    apilar(&pilaOriginal, 20);
-////    apilar(&pilaOriginal, 30);
-////    apilar(&pilaOriginal, 20);
-////    apilar(&pilaOriginal, 10);
-////
-////    printf("PILA ORIGINAL\n");
-////    mostrar(&pilaOriginal);
-////
-////    while(!pilavacia(&pilaOriginal))
-////    {
-////        apilar(&pilaCopia, tope(&pilaOriginal));
-////        apilar(&pilaAux, desapilar(&pilaOriginal));
-////    }
-////    while(!pilavacia(&pilaAux))
-////    {
-////        apilar(&pilaOriginal, desapilar(&pilaAux));
-////    }
-////
-////    while(!pilavacia(&pilaOriginal)&&!pilavacia(&pilaCopia)&&tope(&pilaOriginal)==tope(&pilaCopia))
-////    {
-////        desapilar(&pilaOriginal);
-////        desapilar(&pilaCopia);
-////    }
-////    if(pilavacia(&pilaOriginal)&&pilavacia(&pilaCopia))
-////    {
-////        printf("LA PILA ES CAPICUA\n");
-////    }
-////    else
-////    {
-////        printf("PILA NO ES CAPICUA\n");
-////    }
-////    return 0;
-////}
-////
-///// 10.	Dadas dos pilas A y B que simulan conjuntos (cada conjunto no tiene elementos repetidos sobre sí mismo),
-////  / realizar un programa que calcule en la pila C la operación de unión.
-////  / A :
-////  base 1 2 3  tope
-////  / B:
-////  base 2 3 5 7 tope
-////  / Pila AUB = base 3 2 1 7 5 tope
-////
-////               int main()
-////{
-////    Pila pilaA;
-////    inicpila(&pilaA);
-////    Pila pilaAuxA;
-////    inicpila(&pilaAuxA);
-////    Pila pilaB;
-////    Pila pilaAuxB;
-////    inicpila(&pilaB);
-////    inicpila(&pilaAuxB);
-////    Pila pilaAuB;
-////    inicpila(&pilaAuB);
-////
-////    apilar(&pilaA, 1);
-////    apilar(&pilaA, 2);
-////    apilar(&pilaA, 3);
-////
-////    apilar(&pilaB, 2);
-////    apilar(&pilaB, 3);
-////    apilar(&pilaB, 5);
-////    apilar(&pilaB, 7);
-////
-////    mostrar(&pilaA);
-////    mostrar(&pilaB);
-////
-////    while(!pilavacia(&pilaA))
-////    {
-////        apilar(&pilaAuB, tope(&pilaA));
-////        apilar(&pilaAuxA, desapilar(&pilaA));
-////    }
-////    while(!pilavacia(&pilaAuxA))
-////    {
-////        apilar(&pilaA, desapilar(&pilaAuxA));
-////    }
-////    while(!pilavacia(&pilaB))
-////    {
-////        if(tope(&pilaB)==tope(&pilaA))
-////        {
-////            apilar(&pilaAuxB, desapilar(&pilaB));
-////            apilar(&pilaAuxA, desapilar(&pilaA));
-////        }
-////        else
-////        {
-////            apilar(&pilaAuB, desapilar(&pilaB));
-////        }
-////    }
-////    mostrar(&pilaAuB);
-////}
-////
-///// 11.	Intercalar dos pilas ordenadas en forma creciente (ORDENADA1 y ORDENADA2)
-///// dejando el resultado en una pila también ordenada en forma creciente (ORDENADAFINAL).
-////
-////int main()
-////{
-////    Pila ORDENADA1;
-////    inicpila(&ORDENADA1);
-////    Pila ORDENADA2;
-////    inicpila(&ORDENADA2);
-////    Pila ORDENADAFINAL;
-////    inicpila(&ORDENADAFINAL);
-////    Pila ordenadaAux;
-////    inicpila(&ordenadaAux);
-////
-////    apilar(&ORDENADA1, 1);
-////    apilar(&ORDENADA1, 3);
-////    apilar(&ORDENADA1, 5);
-////    apilar(&ORDENADA1, 7);
-////    apilar(&ORDENADA2, 2);
-////    apilar(&ORDENADA2, 4);
-////    apilar(&ORDENADA2, 6);
-////    apilar(&ORDENADA2, 8);
-////
-////    mostrar(&ORDENADA1);
-////    mostrar(&ORDENADA2);
-////
-////    while(!pilavacia(&ORDENADA1)||!pilavacia(&ORDENADA2))
-////    {
-////        apilar(&ordenadaAux, desapilar(&ORDENADA2));
-////        apilar(&ordenadaAux, desapilar(&ORDENADA1));
-////    }
-////    while(!pilavacia(&ordenadaAux))
-////    {
-////        apilar(&ORDENADAFINAL, desapilar(&ordenadaAux));
-////    }
-////    mostrar(&ORDENADAFINAL);
-////}
-////
-///// 12.	Dada la pila ORIGEN ordenarla en forma ascendente por método de inserción dejando el resultado en la pila ORIGEN.
-///// Para este ejercicio usar lo aprendido para el ejercicio 5.
-////
-////int main()
-////{
-////    Pila origen;
-////    inicpila(&origen);
-////    Pila destino;
-////    inicpila(&destino);
-////    Pila aux;
-////    inicpila(&aux);
-////
-////    char opt;
-////    int valor;
-////    do
-////    {
-////        printf("INGRESE UN ELEMENTO\n");
-////        scanf("%i",&valor);
-////        apilar(&origen,valor);
-////        printf("\nDESEA CARGAR UN NUEVO ELEMENTO? Y/N \n");
-////        fflush(stdin);
-////        scanf("%c", &opt);
-////        printf("\n");
-////    }
-////    while(opt=='Y'||opt=='y');
-////
-////    printf("PILA ORIGEN\n");
-////    mostrar(&origen);
-////
-////    if(!pilavacia(&origen))
-////    {
-////        apilar(&destino, desapilar(&origen));
-////        while(!pilavacia(&origen))
-////        {
-////            while(!pilavacia(&origen))
-////            {
-////                if(tope(&origen)>tope(&destino))
-////                {
-////                    apilar(&aux, desapilar(&destino));
-////                    apilar(&destino, desapilar(&origen));
-////                }
-////                else
-////                {
-////                    apilar(&aux, desapilar(&origen));
-////                }
-////            }
-////            while(!pilavacia(&aux))
-////            {
-////                apilar (&origen, desapilar(&aux));
-////            }
-////            if(!pilavacia(&origen))
-////            {
-////                apilar(&destino, desapilar(&origen));
-////            }
-////        }
-////    }
-////    else
-////    {
-////        printf("\nLA PILA ESTA VACIA\n");
-////    }
-////    while(!pilavacia(&destino))
-////    {
-////        apilar(&origen,desapilar(&destino));
-////    }
-////    printf("PILA DESTINO\n");
-////    mostrar(&origen);
-////    return 0;
-////}
-////
-/////13.	Suponer un juego de cartas en el que en cada mano se reparten dos cartas por jugador.
-/////     Un jugador gana la mano cuando la suma de sus cartas es mayor que las del contrario y al hacerlo coloca todas las cartas
-/////     (las de él y las de su rival) en su pila de puntos. En caso de empate (y para simplificar) siempre gana el jugador1.
-/////     Simular la ejecución del juego de tal manera que dada una pila MAZO (con un número de elementos múltiplo de cuatro)
-/////     distribuya las cartas en las pilas PUNTOSJUG1 y PUNTOSJUG2 como si estos hubieran jugado. Utilizar las pilas auxiliares
-/////     que crea conveniente.
-////
-////int main()
-////{
-////    Pila jugadorUno;
-////    inicpila(&jugadorUno);
-////    Pila jugadorDos;
-////    inicpila(&jugadorDos);
-////    Pila mazo;
-////    inicpila(&mazo);
-////    Pila auxUno;
-////    inicpila(&auxUno);
-////    Pila auxDos;
-////    inicpila(&auxDos);
-////
-////    apilar(&mazo, 0);
-////    apilar(&mazo, 4);
-////    apilar(&mazo, 8);
-////    apilar(&mazo, 12);
-////    apilar(&mazo, 16);
-////    apilar(&mazo, 20);
-////    apilar(&mazo, 24);
-////    apilar(&mazo, 28);
-////    apilar(&mazo, 32);
-////    apilar(&mazo, 36);
-////    printf("MAZO");
-////    mostrar(&mazo);
-////
-////    int sumaUno=0;
-////    int sumaDos=0;
-////    int flag=0;
-////
-////    while(!pilavacia(&mazo)&&flag==0)
-////    {
-////        apilar(&jugadorUno, desapilar(&mazo));
-////        if(pilavacia(&mazo))
-////        {
-////            flag=1;
-////        }
-////        else
-////        {
-////            apilar(&jugadorDos, desapilar(&mazo));
-////        }
-////    }
-////
-////    mostrar(&jugadorUno);
-////    while(!pilavacia(&jugadorUno))
-////    {
-////        sumaUno = sumaUno+tope(&jugadorUno);
-////        apilar(&auxUno, desapilar(&jugadorUno));
-////    }
-////    printf("JUGADOR UNO SUMA: %i\n", sumaUno);
-////
-////    mostrar(&jugadorDos);
-////    while(!pilavacia(&jugadorDos))
-////    {
-////        sumaDos = sumaDos+tope(&jugadorDos);
-////        apilar(&auxDos, desapilar(&jugadorDos));
-////    }
-////    printf("JUGADOR DOS SUMA: %i\n\n", sumaDos);
-////
-////    if(sumaUno>=sumaDos)
-////    {
-////        printf("EL JUGADOR UNO GANA LA MANO CON: %i PUNTOS\n\n", sumaUno);
-////        while(!pilavacia(&auxUno)&&!pilavacia(&auxDos)&&flag==0)
-////        {
-////            apilar(&jugadorUno, desapilar(&auxUno));
-////            if(pilavacia(&auxUno)&&pilavacia(&auxDos))
-////            {
-////                flag=1;
-////            }
-////            else
-////            {
-////                apilar(&jugadorUno, desapilar(&auxDos));
-////            }
-////        }
-////        printf("CARTAS JUGADOR UNO\n");
-////        mostrar(&jugadorUno);
-////    }
-////    else
-////    {
-////        printf("EL JUGADOR DOS GANA LA MANO CON: %i PUNTOS\n\n", sumaDos);
-////        while(!pilavacia(&auxUno)&&!pilavacia(&auxDos)&&flag==0)
-////        {
-////            apilar(&jugadorDos, desapilar(&auxUno));
-////            if(pilavacia(&auxDos)&&pilavacia(&auxDos))
-////            {
-////                flag=1;
-////            }
-////            else
-////            {
-////                apilar(&jugadorDos, desapilar(&auxDos));
-////            }
-////        }
-////        printf("CARTAS JUGADOR DOS\n");
-////        mostrar(&jugadorDos);
-////    }
-////}
-
